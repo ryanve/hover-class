@@ -34,7 +34,7 @@ angular.module('yourApp', ['hoverClass'])
 angular.module('yourApp', []).directive('hoverClass', require('hover-class'))
 ```
 
-## Devs
+## Develop
 
 ```
 npm test
