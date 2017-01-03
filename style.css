@@ -1,0 +1,80 @@
+::selection { background: mediumblue; color: SpringGreen }
+html, body { background: whitesmoke; color: black }
+pre { background: inherit; color: inherit }
+fieldset { background: whitesmoke; color: black }
+.button { background: blue; color: whitesmoke }
+.area, .is-testing .area { background: magenta; color: black }
+.area--activated { background: SpringGreen; color: black }
+.target, .is-testing .target { background: gray; color: whitesmoke }
+.target--activated { background: SpringGreen; color: black }
+.caution { background: gray; color: whitesmoke }
+.example { background: ghostwhite; color: black }
+:focus { outline-color: navy }
+
+*, :before, :after { box-sizing: border-box }
+html { font: 1em/2 sans-serif; }
+body { width: 100%; margin: auto; padding: 1em }
+a { text-decoration: none }
+a:hover { text-decoration: underline }
+button:enabled:hover { cursor: pointer }
+pre, code { -moz-tab-size: 2; -o-tab-size: 2; tab-size: 2 }
+pre { white-space: pre-wrap; word-wrap: break-word; overflow: auto }
+header, section { display: block }
+fieldset { padding: 0; border: 0; margin: 0 0 1em; }
+pre, fieldset { border-radius: .25rem; }
+h1, h2 { line-height: 1 }
+h2 { font-size: 1.5em }
+figure { display: block; margin: 0 0 1em }
+
+.caution {
+  display: table;
+  padding: .25em 1em;
+}
+
+.example {
+  padding: .5em 1em;
+}
+
+.caution,
+.area,
+.target {
+  border-radius: .25rem;
+  line-height: 1.5;
+}
+
+.area,
+.target {
+  padding: .5rem;
+  margin: 0 0 1rem;
+  font-weight: bold;
+}
+
+.target {
+  font-size: 1.25em;
+}
+
+@media (min-width: 40em) {
+  .example {
+    font-size: 1.125em;
+  }
+  .area,
+  .target {
+    padding: 2rem;
+  }
+}
+
+.button {
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: bold;
+  min-height: 2.5em;
+  display: inline-block;
+  border: 0;
+  border-radius: .25rem;
+  padding: .33333em .66666em;
+  margin: 0;
+}
+
+.banner {
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US" ng-app="test">
+<title>hover-class</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Angular hover-class directive">
+<link rel="stylesheet" href="style.css">
+
+<header class="banner">
+  <h1>hover-class</h1>
+  <a class="button" href="https://github.com/ryanve/hover-class">Github</a>
+  <a class="button" href="https://www.npmjs.com/package/hover-class">npm</a>
+</header>
+
+<section>
+  <h2>Examples</h2>
+  <figure>
+    <pre class="example"><code>&lt;div hover-class="area--activated" class="area"&gt;area&lt;/div&gt;</code></pre>
+  </figure>
+  <figure>
+    <pre class="example"><code>&lt;div hover-class='{".target": "target--activated"}'&gt;area&lt;/div&gt;</code></pre>
+  </figure>
+</section>
+
+<section ng-controller="test">
+  <h2>Live Demo</h2>
+  <div class="area" hover-class="area--activated">Hover to activate this area</div>
+  <div class="area" hover-class='{".target": "target--activated"}'>Hover to activate target elsewhere on page</div>
+  <figure class="target">
+    <code>.target</code>
+  </figure>
+</section>
+
+<div>
+  <strong class="caution">Use with care. Relying on hovers is bad UX design.</strong>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src="index.js"></script>
+<script src="test.js"></script>
