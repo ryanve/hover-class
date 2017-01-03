@@ -2,9 +2,7 @@
 Angular `hover-class` directive
 
 - [Demo](https://ryanve.github.io/hover-class/)
-- [Usage](#usage)
-- [Setup](#setup)
-- [npm: <b>hover-class</b>](https://www.npmjs.com/package/hover-class)
+- [npm](https://www.npmjs.com/package/hover-class)
 
 ## Usage
 
@@ -46,5 +44,5 @@ npm test
 ```
 
 ## Other directives
-- [click-class](https://github.com/ryanve/click-class)
-- [label-class](https://github.com/ryanve/label-class)
+- [click-class](https://www.npmjs.com/package/click-class)
+- [label-class](https://www.npmjs.com/package/label-class)
