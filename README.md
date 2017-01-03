@@ -1,9 +1,6 @@
 # hover-class
 Angular `hover-class` directive
 
-- [Demo](https://ryanve.github.io/hover-class/)
-- [npm](https://www.npmjs.com/package/hover-class)
-
 ## Usage
 
 #### Hover to activate
